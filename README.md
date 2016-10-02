@@ -35,10 +35,15 @@ Atom packages:
 - glowing-cursor
 - color-picker
 - pigments
+- minimap
+- minimap-pigments
+- minimap-cursorline
+- react
 - seti-icons
 
 Atom Themes:
-- firewatch-syntax
+- atom-material-ui
+- atom-material-syntax
 
 Eclipse Syntax Theme:
 - vibrant-ink
