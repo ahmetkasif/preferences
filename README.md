@@ -1,3 +1,18 @@
+Linux GTK3 Themes
+- Matcha
+- OSX-Arch-White
+
+Linux Icon Themes
+- Papirus
+- Oranchelo
+
+Linux Gnome Shell Extensions
+- Sound Input & Output Device Chooser
+- Net Speed
+- System Monitor
+- Wifi Refresher
+- User themes (Core package)
+
 Meteor Packages:
 - meteor-base             # Packages every Meteor app needs to have
 - mobile-experience       # Packages for a great mobile UX
