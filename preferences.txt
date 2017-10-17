@@ -1,3 +1,18 @@
+Linux GTK3 Themes
+- Matcha
+- OSX-Arch-White
+
+Linux Icon Themes
+- Papirus
+- Oranchelo
+
+Linux Gnome Shell Extensions
+- Sound Input & Output Device Chooser
+- Net Speed
+- System Monitor
+- Wifi Refresher
+- User themes (Core package)
+
 Meteor Packages:
 - meteor-base             # Packages every Meteor app needs to have
 - mobile-experience       # Packages for a great mobile UX
@@ -35,10 +50,24 @@ Atom packages:
 - glowing-cursor
 - color-picker
 - pigments
+- minimap
+- minimap-pigments
+- minimap-cursorline
+- react
 - seti-icons
 
 Atom Themes:
-- firewatch-syntax
+- atom-material-ui
+- atom-material-syntax
 
 Eclipse Syntax Theme:
 - vibrant-ink
+
+Google Play APK Upload commands:
+
+1) İmza edilmemiş çıktı apksını zipalign ile sıkıştırıyoruz.
+  $ANDROID_HOME/build-tools/26.0.2/zipalign 4 release-unsigned.apk dakik.apk
+2) Align edilmiş apk mızı, key dosyamızla beraber imza ediyoruz.
+  $ANDROID_HOME/build-tools/26.0.2/apksigner sign --ks dakik.jks --out dakik-release.apk dakik.apk
+3) Elde ettiğimiz çıktının imza edilip edilmediğini kontrol ediyoruz.
+  $ANDROID_HOME/build-tools/26.0.2/apksigner verify dakik-release.apk
